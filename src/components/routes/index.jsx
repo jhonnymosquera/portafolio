@@ -3,13 +3,13 @@ import { Route, Routes } from 'react-router-dom';
 import AboutPage from '../../pages/AboutPage';
 import HomePage from '../../pages/HomePage';
 import NotFundPage from '../../pages/NotFundPage';
-import PortafolioPage from '../../pages/PortafolioPage';
+import PortfolioPage from '../../pages/PortfolioPage';
 
 function Routers() {
 	return (
 		<Routes>
 			<Route path="/" element={<HomePage />} />
-			<Route path="/portafolio" element={<PortafolioPage />} />
+			<Route path="/portafolio" element={<PortfolioPage />} />
 			<Route path="/sobre_mi" element={<AboutPage />} />
 
 			<Route path="*" element={<NotFundPage />} />

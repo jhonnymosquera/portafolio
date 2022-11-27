@@ -3,7 +3,7 @@ function Picture({ img, className }) {
 		<picture className={className}>
 			<source srcSet={img.avif} type="image/avif" />
 			<source srcSet={img.webp} type="image/webp" />
-			<img srcSet={`${img.png || img.jpg}`} alt={img.alt} />
+			<img srcSet={`${img.png}`} alt={img.alt} />
 		</picture>
 	);
 }

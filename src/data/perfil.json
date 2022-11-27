@@ -1,11 +1,37 @@
 {
 	"name": "Jhonny Mosquera",
-	"cargo": "Junior Frontend",
-	"technologies": ["HTML", "CSS", "SASS", "JavaScript", "React"],
-	"Photo": {
-		"avif": "",
-		"webp": "",
-		"png": "",
+	"title": "Junior Frontend",
+	"photo": {
+		"avif": "img/foto/jhonny_mosquera.avif",
+		"webp": "img/foto/jhonny_mosquera.webp",
+		"png": "img/foto/jhonny_mosquera.png",
 		"alt": "foto de Jhonny Mosquera"
-	}
+	},
+	"technologies": [
+		{
+			"name": "HTML 5",
+			"icon": "technologies/html.svg",
+			"alt": "icono de HTML 5"
+		},
+		{
+			"name": "CSS",
+			"icon": "technologies/css.svg",
+			"alt": "icono de CSS"
+		},
+		{
+			"name": "SASS",
+			"icon": "technologies/sass.svg",
+			"alt": "icono de SASS"
+		},
+		{
+			"name": "JavaScript",
+			"icon": "technologies/js.svg",
+			"alt": "icono de JavaScript"
+		},
+		{
+			"name": "React",
+			"icon": "technologies/react.svg",
+			"alt": "icono de React"
+		}
+	]
 }
