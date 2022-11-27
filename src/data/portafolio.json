@@ -1,0 +1,36 @@
+[
+	{
+		"id": 1,
+		"title": "Mi Portafolio",
+		"description": "Este es mi portafolio en el cual se encontraran todos los proyectos realizados.",
+		"technologies": ["HTML", "CSS", "SASS", "JavaScript", "React"],
+		"image": {
+			"avif": "",
+			"webp": "",
+			"png": "",
+			"alt": ""
+		},
+		"urls": {
+			"repository": "http://",
+			"live": "http://"
+		}
+	},
+	{
+		"id": 2,
+		"title": "",
+		"description": "",
+		"technologies": ["HTML", "CSS", "JavaScript", "React"],
+		"image": {
+			"avif": "",
+			"webp": "",
+			"png": "",
+			"alt": ""
+		},
+		"urls": {
+			"Repository": "",
+			"live": "",
+			"apis": "",
+			"origin": ""
+		}
+	}
+]

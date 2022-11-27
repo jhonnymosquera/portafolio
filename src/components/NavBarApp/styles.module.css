@@ -1,0 +1,82 @@
+.nav {
+	width: 40%;
+}
+
+.ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.li a {
+	font-weight: bold;
+}
+
+/* Bars */
+.bars {
+	float: right;
+	cursor: pointer;
+}
+
+.bar {
+	background-color: red;
+	width: 50px;
+	height: 4px;
+	margin-bottom: 10px;
+}
+
+@media all and (max-width: 790px) {
+	.ul {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		left: -800px;
+		height: 100vh;
+		background-color: #f3f3f3;
+
+		transition: all 800ms;
+	}
+
+	.ulActive {
+		left: 0px;
+	}
+
+	.li {
+		margin: 32px;
+	}
+
+	.bars {
+		display: block;
+		z-index: 2;
+	}
+	.bars .bar {
+		transition: all 800ms;
+	}
+
+	.bars .b1 {
+		position: relative;
+		top: 0;
+	}
+
+	.bars .b3 {
+		position: relative;
+		top: 0;
+	}
+
+	.barsActive .b1 {
+		top: 14px;
+		transform: rotate(45deg);
+	}
+
+	.barsActive .b2 {
+		transform: translateX(-500px);
+		opacity: 0;
+	}
+
+	.barsActive .b3 {
+		top: -14px;
+		transform: rotate(-45deg);
+	}
+}

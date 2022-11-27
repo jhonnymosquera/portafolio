@@ -1,0 +1,18 @@
+[
+	{
+		"path": "/",
+		"name": "Inicio"
+	},
+	{
+		"path": "/sobre_mi",
+		"name": "Sobre mi"
+	},
+	{
+		"path": "/portafolio",
+		"name": "Portafolio"
+	},
+	{
+		"path": "/contact",
+		"name": "Contacto"
+	}
+]

@@ -1,0 +1,11 @@
+{
+	"name": "Jhonny Mosquera",
+	"cargo": "Junior Frontend",
+	"technologies": ["HTML", "CSS", "SASS", "JavaScript", "React"],
+	"Photo": {
+		"avif": "",
+		"webp": "",
+		"png": "",
+		"alt": "foto de Jhonny Mosquera"
+	}
+}

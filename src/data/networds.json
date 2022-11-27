@@ -1,0 +1,26 @@
+[
+	{
+		"name": "facebook",
+		"url": "/",
+		"icon": {
+			"img": {
+				"avif": "img/social-networks/facebook.avif",
+				"webp": "img/social-networks/facebook.webp",
+				"png": "img/social-networks/facebook.png",
+				"alt": "icono de facebook"
+			}
+		}
+	},
+	{
+		"name": "twitter",
+		"url": "/",
+		"icon": {
+			"img": {
+				"avif": "img/social-networks/twitter.avif",
+				"webp": "img/social-networks/twitter.webp",
+				"png": "img/social-networks/twitter.png",
+				"alt": "icono de twitter"
+			}
+		}
+	}
+]
