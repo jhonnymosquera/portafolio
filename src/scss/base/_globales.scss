@@ -13,24 +13,20 @@ html {
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	color: v.$negro;
+	color: v.$c1;
 }
 
 body {
 	font-size: 16rem;
 	font-family: v.$fuente_principal;
-	min-height: 100vh;
-	height: auto;
-	display: flex;
-	flex-direction: column;
 }
 
 h1 {
-	font-size: 40rem;
+	font-size: 38rem;
 }
 
 h2 {
-	font-size: 36rem;
+	font-size: 34rem;
 }
 
 h3 {
@@ -48,6 +44,6 @@ img {
 }
 
 .container {
-	width: min(95%, 1200rem);
+	width: min(100%, 1200rem);
 	margin: 0 auto;
 }

@@ -4,7 +4,7 @@ import Routers from './components/routes';
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App container">
 			<Header />
 			<Routers />
 		</div>
